@@ -1,0 +1,228 @@
+body{
+	background-image: url(img/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	margin: 0px;
+}
+nav{
+	text-align: right;
+	background-color: black;
+	font-size: 25px;
+	
+    height: 45px;
+    padding-top: 20px;
+    margin-top: -8px;
+	
+}
+.u:hover{
+	color: white;
+}
+.u{
+	text-decoration: none;
+	padding-right: 50px;
+}
+
+.t{
+	color: #03f4e9;
+	margin-top: 170px;
+
+}
+#k{
+	margin-top: 0px;
+
+	margin-left: 60px;
+	font-size: 2cm;
+}
+#h{
+	margin-left: 70px;
+	font-size: 1cm;
+}
+#p{
+	margin-left: 60px;
+	font-size: 1.1cm;
+}
+#mr{
+	margin-left: 70px;
+	font-size: 1cm;
+	color: yellow;
+} /*end of index page*/
+
+.Email{
+	text-align: center;
+	margin-left: 300px; /*Emails box etc.*/
+	margin-top: 30px;
+	margin-right:300px;
+	color: white;
+	
+}
+
+.first{
+	width:250px; /*other contact box*/
+}
+
+.s:hover{
+	background-color: #00ff1a69; /*submit button*/
+}
+.b{
+	margin-top: 200px; /*contact page fieldset*/
+}
+.c{
+	backdrop-filter:blur(4px); /*to blur contact background-color*/
+}
+.c:hover{
+	box-shadow: #58ebfe 4px 3px 20px;
+}
+.nt{ 
+	color: grey;
+	text-align: right;
+    margin-top: -500px;
+    margin-right: 10px; /*my info*/
+}
+
+.pi{
+	color: white; /*title*/
+	font-size: 40px;
+	text-shadow: #00f3ff 1px 2px 20px;
+}
+.a{
+	color: white; /* cv personal info*/
+}
+.img{
+	width: 475px;
+	box-shadow: #58ebfe 4px 3px 20px 3px; /*cv img*/
+}
+#f{
+	width: 500px;
+	backdrop-filter: blur(3px); /*cv fieldset*/
+	
+	/*box-shadow: #349bf4 2px 1px 18px 2px;*/
+}
+#f:hover{
+	box-shadow: #349bf4 2px 1px 20px 11px;
+}
+.grid{
+	display: grid;                    /*CV page*/
+    width: max-content;
+    grid-template-columns: auto auto;
+    margin-left: 180px;
+    margin-top: 30px;
+    column-gap: 50px;
+}
+
+
+
+/*.cv{
+	font-style: italic;
+    color: #00dcff;
+    font-size: 50px;
+    text-shadow: #0072ff 4px 0px 2px;
+    margin-top: -400px;
+    margin-left: 30px;
+}*/
+.unknown{
+	width: 200px;
+	height: 400px;
+	background-color: grey;
+	margin-left: 70px;
+	margin-top: 50px;
+	color: black;
+	
+}
+.port{
+	color: white;
+	/*margin-left: 65px;*/
+}
+.tt{
+	width: 200px;
+	margin-left: 70px;
+	/*margin-top: 50px;*/
+}
+.ttt{
+	width: 200px;
+	margin-left: 200px;
+	margin-top: -80px;
+}
+.tttt{
+	width: 200px;
+	margin-left: 325px;
+	margin-top: -80px;
+}
+.ttttt{
+	width: 200px;
+	margin-left: 433px;
+	margin-top: -102px;
+}
+.ttttt:hover{
+	box-shadow: #06fad8 -2px -1px 15px;
+
+}
+.tttt:hover{
+	box-shadow: #06fad8 -2px -1px 15px;
+
+}
+.ttt:hover{
+	box-shadow: #06fad8 -2px -1px 15px;
+
+}
+.tt:hover{
+	box-shadow: #06fad8 -2px -1px 15px;    /* this is of portfolio*/
+
+}
+.v{ /*for hover color: */
+	animation-name: rbg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes rbg{ /*page nav color*/
+    0% {color:green;}
+    20% {color:pink;}
+    40% {color:skyblue;}
+    60% {color:yellow;}
+    80% {color:white;}
+    100% {color:red;}
+
+}
+@media screen and (max-width: 700px) {
+    body {
+      /* background-color: darkblue; */
+      background-size: cover;
+      background-image: url(img/000.jpg);
+    }
+	#mula:checked ~.z{
+		transform: none;
+		transition-duration: 1s;
+		width: 100%;
+
+	}
+	.z{
+		transform: scale(0);
+		transform-origin: 100% 0%;
+		background-color: black;
+		
+}
+	.u{
+		width: 100%;
+		display: block;
+		color: white;
+	}	
+	.hb{
+		height: 2px;
+		width: 12px;
+		background-color: white;
+		margin: 2px;
+		
+
+	}
+	.h{
+
+		float: right;
+		
+	}
+	#mula{
+		position: relative;
+		left: 19px; 
+		top: -10px;
+		opacity: 0%;
+	}
+}
