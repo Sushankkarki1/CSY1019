@@ -193,6 +193,7 @@ nav{
       /* background-color: darkblue; */
       background-size: cover;
       background-image: url(img/000.jpg);
+      background-repeat: repeat;
     }
 	#mula:checked ~.z{
 		transform: none;
