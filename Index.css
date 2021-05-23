@@ -97,7 +97,7 @@ nav{
 }
 #f{
 	margin-top: -10px;
-	width: 80%;
+	width: 65%;
 	backdrop-filter: blur(3px); /*cv fieldset*/
 	
 	/*box-shadow: #349bf4 2px 1px 18px 2px;*/
@@ -107,7 +107,7 @@ nav{
 }
 .grid{
 	display: grid;                    /*CV page*/
-    width: max-content;
+    /*width: max-content;*/
     grid-template-columns: auto auto;
     margin-left: 18px;
     margin-top: 30px;
@@ -264,5 +264,8 @@ nav{
 	}
 	.u{
 		padding: 0;
+	}
+	#f{
+		width: 50%;
 	}
 }
