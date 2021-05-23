@@ -27,25 +27,25 @@ nav{
 
 .t{
 	color: #03f4e9;
-	margin-top: 170px;
+	margin-top: 100px;
 
 }
 #k{
 	margin-top: 0px;
 
-	margin-left: 60px;
+	margin-left: 40px;
 	font-size: 2cm;
 }
 #h{
-	margin-left: 70px;
+	margin-left: 60px;
 	font-size: 1cm;
 }
 #p{
-	margin-left: 60px;
+	margin-left: 50px;
 	font-size: 1.1cm;
 }
 #mr{
-	margin-left: 70px;
+	margin-left: 60px;
 	font-size: 1cm;
 	color: yellow;
 } /*end of index page*/
@@ -269,4 +269,23 @@ nav{
 	#f{
 		width: 50%;
 	}
+	#k{
+	margin-top: 0px;
+
+	/*margin-left: 40px;*/
+	font-size: 40px;
+}
+#h{
+	/*margin-left: 60px;*/
+	font-size: 50px;
+}
+#p{
+	/*margin-left: 50px;*/
+	font-size: 30px;
+}
+#mr{
+	/*margin-left: 60px;*/
+	font-size: 20px;
+	color: yellow;
+}
 }
