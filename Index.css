@@ -219,6 +219,12 @@ nav{
 	font-size: 30px;
 	margin-left: 10px;
 }
+.date{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
 .vd{
 	color: white;
 	text-shadow: #00c9ff 3px 2px 18px;
@@ -236,6 +242,7 @@ nav{
 .gd{
 	display: grid;
 	grid-template-columns: auto auto;
+	row-gap:5px;
 }
 @keyframes rbg{ /*page nav color*/
     0% {color:green;}
