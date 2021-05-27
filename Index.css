@@ -180,6 +180,63 @@ nav{
     animation-iteration-count: infinite;
 
 }
+.site{						/*Sitereport css from here*/
+	width: 90%;
+	margin-left: 10px;
+	border: 2px solid #58ebfe; 
+
+}
+.my{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.list{
+	color: #58ebfe;
+}
+.obj{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.exp{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.re{
+	color: #58ebfe;
+	
+	font-size: 16px;
+	margin-left: 10px;
+}
+.ref{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.vd{
+	color: white;
+	text-shadow: #00c9ff 3px 2px 18px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.txt{
+	color: #58ebfe;
+	font-size: 16px;
+	margin-left:20px;
+}
+.sit{
+	width: 50%;
+}
+.gd{
+	display: grid;
+	grid-template-columns: auto auto;
+}
 @keyframes rbg{ /*page nav color*/
     0% {color:green;}
     20% {color:pink;}
@@ -196,22 +253,26 @@ nav{
       background-image: url(img/000.jpg);
       background-repeat: repeat;
     }
+
 	#mula:checked ~.z{
 		transform: none;
 		transition-duration: 1s;
 		width: 100%;
-
+		z-index: 2;
 	}
 	.z{
 		transform: scale(0);
+
 		transform-origin: 100% 0%;
 		background-color: black;
-		
+		position: fixed;
 }
 	.u{
 		width: 100%;
+		/*z-index: 2;*/
 		display: block;
 		color: white;
+		/*background-color: black;*/
 	}	
 	.hb{
 		height: 2px;
@@ -253,7 +314,7 @@ nav{
 		float: right;
 	}
 	.b{
-
+		padding: 0;
 	}
 	.nt{
 		margin: 0px;
