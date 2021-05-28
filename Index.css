@@ -359,4 +359,7 @@ nav{
 .site{
 	margin: 0;
 }
+.re{
+	display: fit-content;
+}
 }
